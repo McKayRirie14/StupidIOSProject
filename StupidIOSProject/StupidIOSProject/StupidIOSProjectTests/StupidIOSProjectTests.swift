@@ -1,15 +1,15 @@
 //
-//  StupidIOSProjectTests.swift
-//  StupidIOSProjectTests
+//  StupidiosProjectTests.swift
+//  StupidiosProjectTests
 //
-//  Created by Ririe, Mckay on 12/11/15.
-//  Copyright (c) 2015 CTEC. All rights reserved.
+//  Created by Ririe, Mckay on 12/17/15.
+//  Copyright © 2015 CTEC. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import StupidiosProject
 
-class StupidIOSProjectTests: XCTestCase {
+class StupidiosProjectTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +23,12 @@ class StupidIOSProjectTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }

@@ -7,50 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D05DF2C1C1B2AC300F97076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05DF2B1C1B2AC300F97076 /* AppDelegate.swift */; };
-		5D05DF2E1C1B2AC300F97076 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05DF2D1C1B2AC300F97076 /* RootViewController.swift */; };
-		5D05DF301C1B2AC300F97076 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05DF2F1C1B2AC300F97076 /* DataViewController.swift */; };
-		5D05DF321C1B2AC300F97076 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05DF311C1B2AC300F97076 /* ModelController.swift */; };
-		5D05DF351C1B2AC300F97076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D05DF331C1B2AC300F97076 /* Main.storyboard */; };
-		5D05DF371C1B2AC300F97076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D05DF361C1B2AC300F97076 /* Images.xcassets */; };
-		5D05DF3A1C1B2AC300F97076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D05DF381C1B2AC300F97076 /* LaunchScreen.xib */; };
-		5D05DF461C1B2AC300F97076 /* StupidIOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05DF451C1B2AC300F97076 /* StupidIOSProjectTests.swift */; };
+		5D1AC1501C2304640084AC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AC14F1C2304640084AC9C /* AppDelegate.swift */; };
+		5D1AC1521C2304640084AC9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AC1511C2304640084AC9C /* ViewController.swift */; };
+		5D1AC1551C2304640084AC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1AC1531C2304640084AC9C /* Main.storyboard */; };
+		5D1AC1571C2304640084AC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1AC1561C2304640084AC9C /* Assets.xcassets */; };
+		5D1AC15A1C2304640084AC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1AC1581C2304640084AC9C /* LaunchScreen.storyboard */; };
+		5D1AC1651C2304640084AC9C /* StupidiosProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AC1641C2304640084AC9C /* StupidiosProjectTests.swift */; };
+		5D1AC1701C2304640084AC9C /* StupidiosProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AC16F1C2304640084AC9C /* StupidiosProjectUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D05DF401C1B2AC300F97076 /* PBXContainerItemProxy */ = {
+		5D1AC1611C2304640084AC9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D05DF1E1C1B2AC300F97076 /* Project object */;
+			containerPortal = 5D1AC1441C2304630084AC9C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D05DF251C1B2AC300F97076;
-			remoteInfo = StupidIOSProject;
+			remoteGlobalIDString = 5D1AC14B1C2304640084AC9C;
+			remoteInfo = StupidiosProject;
+		};
+		5D1AC16C1C2304640084AC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1AC1441C2304630084AC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D1AC14B1C2304640084AC9C;
+			remoteInfo = StupidiosProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D05DF261C1B2AC300F97076 /* StupidIOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidIOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D05DF2A1C1B2AC300F97076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D05DF2B1C1B2AC300F97076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D05DF2D1C1B2AC300F97076 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		5D05DF2F1C1B2AC300F97076 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		5D05DF311C1B2AC300F97076 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		5D05DF341C1B2AC300F97076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D05DF361C1B2AC300F97076 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5D05DF391C1B2AC300F97076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5D05DF3F1C1B2AC300F97076 /* StupidIOSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidIOSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D05DF441C1B2AC300F97076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D05DF451C1B2AC300F97076 /* StupidIOSProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidIOSProjectTests.swift; sourceTree = "<group>"; };
+		5D1AC14C1C2304640084AC9C /* StupidiosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidiosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1AC14F1C2304640084AC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D1AC1511C2304640084AC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D1AC1541C2304640084AC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D1AC1561C2304640084AC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D1AC1591C2304640084AC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D1AC15B1C2304640084AC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1AC1601C2304640084AC9C /* StupidiosProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidiosProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1AC1641C2304640084AC9C /* StupidiosProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidiosProjectTests.swift; sourceTree = "<group>"; };
+		5D1AC1661C2304640084AC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1AC16B1C2304640084AC9C /* StupidiosProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidiosProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1AC16F1C2304640084AC9C /* StupidiosProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidiosProjectUITests.swift; sourceTree = "<group>"; };
+		5D1AC1711C2304640084AC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D05DF231C1B2AC300F97076 /* Frameworks */ = {
+		5D1AC1491C2304640084AC9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D05DF3C1C1B2AC300F97076 /* Frameworks */ = {
+		5D1AC15D1C2304640084AC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1AC1681C2304640084AC9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,121 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D05DF1D1C1B2AC300F97076 = {
+		5D1AC1431C2304630084AC9C = {
 			isa = PBXGroup;
 			children = (
-				5D05DF281C1B2AC300F97076 /* StupidIOSProject */,
-				5D05DF421C1B2AC300F97076 /* StupidIOSProjectTests */,
-				5D05DF271C1B2AC300F97076 /* Products */,
+				5D1AC14E1C2304640084AC9C /* StupidiosProject */,
+				5D1AC1631C2304640084AC9C /* StupidiosProjectTests */,
+				5D1AC16E1C2304640084AC9C /* StupidiosProjectUITests */,
+				5D1AC14D1C2304640084AC9C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5D05DF271C1B2AC300F97076 /* Products */ = {
+		5D1AC14D1C2304640084AC9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D05DF261C1B2AC300F97076 /* StupidIOSProject.app */,
-				5D05DF3F1C1B2AC300F97076 /* StupidIOSProjectTests.xctest */,
+				5D1AC14C1C2304640084AC9C /* StupidiosProject.app */,
+				5D1AC1601C2304640084AC9C /* StupidiosProjectTests.xctest */,
+				5D1AC16B1C2304640084AC9C /* StupidiosProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D05DF281C1B2AC300F97076 /* StupidIOSProject */ = {
+		5D1AC14E1C2304640084AC9C /* StupidiosProject */ = {
 			isa = PBXGroup;
 			children = (
-				5D05DF2B1C1B2AC300F97076 /* AppDelegate.swift */,
-				5D05DF2D1C1B2AC300F97076 /* RootViewController.swift */,
-				5D05DF2F1C1B2AC300F97076 /* DataViewController.swift */,
-				5D05DF311C1B2AC300F97076 /* ModelController.swift */,
-				5D05DF331C1B2AC300F97076 /* Main.storyboard */,
-				5D05DF361C1B2AC300F97076 /* Images.xcassets */,
-				5D05DF381C1B2AC300F97076 /* LaunchScreen.xib */,
-				5D05DF291C1B2AC300F97076 /* Supporting Files */,
+				5D1AC14F1C2304640084AC9C /* AppDelegate.swift */,
+				5D1AC1511C2304640084AC9C /* ViewController.swift */,
+				5D1AC1531C2304640084AC9C /* Main.storyboard */,
+				5D1AC1561C2304640084AC9C /* Assets.xcassets */,
+				5D1AC1581C2304640084AC9C /* LaunchScreen.storyboard */,
+				5D1AC15B1C2304640084AC9C /* Info.plist */,
 			);
-			path = StupidIOSProject;
+			path = StupidiosProject;
 			sourceTree = "<group>";
 		};
-		5D05DF291C1B2AC300F97076 /* Supporting Files */ = {
+		5D1AC1631C2304640084AC9C /* StupidiosProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				5D05DF2A1C1B2AC300F97076 /* Info.plist */,
+				5D1AC1641C2304640084AC9C /* StupidiosProjectTests.swift */,
+				5D1AC1661C2304640084AC9C /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = StupidiosProjectTests;
 			sourceTree = "<group>";
 		};
-		5D05DF421C1B2AC300F97076 /* StupidIOSProjectTests */ = {
+		5D1AC16E1C2304640084AC9C /* StupidiosProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5D05DF451C1B2AC300F97076 /* StupidIOSProjectTests.swift */,
-				5D05DF431C1B2AC300F97076 /* Supporting Files */,
+				5D1AC16F1C2304640084AC9C /* StupidiosProjectUITests.swift */,
+				5D1AC1711C2304640084AC9C /* Info.plist */,
 			);
-			path = StupidIOSProjectTests;
-			sourceTree = "<group>";
-		};
-		5D05DF431C1B2AC300F97076 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D05DF441C1B2AC300F97076 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = StupidiosProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D05DF251C1B2AC300F97076 /* StupidIOSProject */ = {
+		5D1AC14B1C2304640084AC9C /* StupidiosProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D05DF491C1B2AC300F97076 /* Build configuration list for PBXNativeTarget "StupidIOSProject" */;
+			buildConfigurationList = 5D1AC1741C2304640084AC9C /* Build configuration list for PBXNativeTarget "StupidiosProject" */;
 			buildPhases = (
-				5D05DF221C1B2AC300F97076 /* Sources */,
-				5D05DF231C1B2AC300F97076 /* Frameworks */,
-				5D05DF241C1B2AC300F97076 /* Resources */,
+				5D1AC1481C2304640084AC9C /* Sources */,
+				5D1AC1491C2304640084AC9C /* Frameworks */,
+				5D1AC14A1C2304640084AC9C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StupidIOSProject;
-			productName = StupidIOSProject;
-			productReference = 5D05DF261C1B2AC300F97076 /* StupidIOSProject.app */;
+			name = StupidiosProject;
+			productName = StupidiosProject;
+			productReference = 5D1AC14C1C2304640084AC9C /* StupidiosProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D05DF3E1C1B2AC300F97076 /* StupidIOSProjectTests */ = {
+		5D1AC15F1C2304640084AC9C /* StupidiosProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D05DF4C1C1B2AC300F97076 /* Build configuration list for PBXNativeTarget "StupidIOSProjectTests" */;
+			buildConfigurationList = 5D1AC1771C2304640084AC9C /* Build configuration list for PBXNativeTarget "StupidiosProjectTests" */;
 			buildPhases = (
-				5D05DF3B1C1B2AC300F97076 /* Sources */,
-				5D05DF3C1C1B2AC300F97076 /* Frameworks */,
-				5D05DF3D1C1B2AC300F97076 /* Resources */,
+				5D1AC15C1C2304640084AC9C /* Sources */,
+				5D1AC15D1C2304640084AC9C /* Frameworks */,
+				5D1AC15E1C2304640084AC9C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D05DF411C1B2AC300F97076 /* PBXTargetDependency */,
+				5D1AC1621C2304640084AC9C /* PBXTargetDependency */,
 			);
-			name = StupidIOSProjectTests;
-			productName = StupidIOSProjectTests;
-			productReference = 5D05DF3F1C1B2AC300F97076 /* StupidIOSProjectTests.xctest */;
+			name = StupidiosProjectTests;
+			productName = StupidiosProjectTests;
+			productReference = 5D1AC1601C2304640084AC9C /* StupidiosProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D1AC16A1C2304640084AC9C /* StupidiosProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1AC17A1C2304640084AC9C /* Build configuration list for PBXNativeTarget "StupidiosProjectUITests" */;
+			buildPhases = (
+				5D1AC1671C2304640084AC9C /* Sources */,
+				5D1AC1681C2304640084AC9C /* Frameworks */,
+				5D1AC1691C2304640084AC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D1AC16D1C2304640084AC9C /* PBXTargetDependency */,
+			);
+			name = StupidiosProjectUITests;
+			productName = StupidiosProjectUITests;
+			productReference = 5D1AC16B1C2304640084AC9C /* StupidiosProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5D05DF1E1C1B2AC300F97076 /* Project object */ = {
+		5D1AC1441C2304630084AC9C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CTEC;
 				TargetAttributes = {
-					5D05DF251C1B2AC300F97076 = {
-						CreatedOnToolsVersion = 6.3.2;
+					5D1AC14B1C2304640084AC9C = {
+						CreatedOnToolsVersion = 7.2;
 					};
-					5D05DF3E1C1B2AC300F97076 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 5D05DF251C1B2AC300F97076;
+					5D1AC15F1C2304640084AC9C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5D1AC14B1C2304640084AC9C;
+					};
+					5D1AC16A1C2304640084AC9C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5D1AC14B1C2304640084AC9C;
 					};
 				};
 			};
-			buildConfigurationList = 5D05DF211C1B2AC300F97076 /* Build configuration list for PBXProject "StupidIOSProject" */;
+			buildConfigurationList = 5D1AC1471C2304630084AC9C /* Build configuration list for PBXProject "StupidiosProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,29 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 5D05DF1D1C1B2AC300F97076;
-			productRefGroup = 5D05DF271C1B2AC300F97076 /* Products */;
+			mainGroup = 5D1AC1431C2304630084AC9C;
+			productRefGroup = 5D1AC14D1C2304640084AC9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D05DF251C1B2AC300F97076 /* StupidIOSProject */,
-				5D05DF3E1C1B2AC300F97076 /* StupidIOSProjectTests */,
+				5D1AC14B1C2304640084AC9C /* StupidiosProject */,
+				5D1AC15F1C2304640084AC9C /* StupidiosProjectTests */,
+				5D1AC16A1C2304640084AC9C /* StupidiosProjectUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5D05DF241C1B2AC300F97076 /* Resources */ = {
+		5D1AC14A1C2304640084AC9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D05DF351C1B2AC300F97076 /* Main.storyboard in Resources */,
-				5D05DF3A1C1B2AC300F97076 /* LaunchScreen.xib in Resources */,
-				5D05DF371C1B2AC300F97076 /* Images.xcassets in Resources */,
+				5D1AC15A1C2304640084AC9C /* LaunchScreen.storyboard in Resources */,
+				5D1AC1571C2304640084AC9C /* Assets.xcassets in Resources */,
+				5D1AC1551C2304640084AC9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D05DF3D1C1B2AC300F97076 /* Resources */ = {
+		5D1AC15E1C2304640084AC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1AC1691C2304640084AC9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,56 +252,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D05DF221C1B2AC300F97076 /* Sources */ = {
+		5D1AC1481C2304640084AC9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D05DF2E1C1B2AC300F97076 /* RootViewController.swift in Sources */,
-				5D05DF321C1B2AC300F97076 /* ModelController.swift in Sources */,
-				5D05DF301C1B2AC300F97076 /* DataViewController.swift in Sources */,
-				5D05DF2C1C1B2AC300F97076 /* AppDelegate.swift in Sources */,
+				5D1AC1521C2304640084AC9C /* ViewController.swift in Sources */,
+				5D1AC1501C2304640084AC9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D05DF3B1C1B2AC300F97076 /* Sources */ = {
+		5D1AC15C1C2304640084AC9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D05DF461C1B2AC300F97076 /* StupidIOSProjectTests.swift in Sources */,
+				5D1AC1651C2304640084AC9C /* StupidiosProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1AC1671C2304640084AC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1AC1701C2304640084AC9C /* StupidiosProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D05DF411C1B2AC300F97076 /* PBXTargetDependency */ = {
+		5D1AC1621C2304640084AC9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D05DF251C1B2AC300F97076 /* StupidIOSProject */;
-			targetProxy = 5D05DF401C1B2AC300F97076 /* PBXContainerItemProxy */;
+			target = 5D1AC14B1C2304640084AC9C /* StupidiosProject */;
+			targetProxy = 5D1AC1611C2304640084AC9C /* PBXContainerItemProxy */;
+		};
+		5D1AC16D1C2304640084AC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D1AC14B1C2304640084AC9C /* StupidiosProject */;
+			targetProxy = 5D1AC16C1C2304640084AC9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D05DF331C1B2AC300F97076 /* Main.storyboard */ = {
+		5D1AC1531C2304640084AC9C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D05DF341C1B2AC300F97076 /* Base */,
+				5D1AC1541C2304640084AC9C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5D05DF381C1B2AC300F97076 /* LaunchScreen.xib */ = {
+		5D1AC1581C2304640084AC9C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D05DF391C1B2AC300F97076 /* Base */,
+				5D1AC1591C2304640084AC9C /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5D05DF471C1B2AC300F97076 /* Debug */ = {
+		5D1AC1721C2304640084AC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,8 +331,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -292,14 +342,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -308,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		5D05DF481C1B2AC300F97076 /* Release */ = {
+		5D1AC1731C2304640084AC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,91 +395,113 @@
 			};
 			name = Release;
 		};
-		5D05DF4A1C1B2AC300F97076 /* Debug */ = {
+		5D1AC1751C2304640084AC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StupidIOSProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = StupidiosProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidiosProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5D05DF4B1C1B2AC300F97076 /* Release */ = {
+		5D1AC1761C2304640084AC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StupidIOSProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = StupidiosProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidiosProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		5D05DF4D1C1B2AC300F97076 /* Debug */ = {
+		5D1AC1781C2304640084AC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StupidIOSProjectTests/Info.plist;
+				INFOPLIST_FILE = StupidiosProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidiosProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidIOSProject.app/StupidIOSProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidiosProject.app/StupidiosProject";
 			};
 			name = Debug;
 		};
-		5D05DF4E1C1B2AC300F97076 /* Release */ = {
+		5D1AC1791C2304640084AC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StupidIOSProjectTests/Info.plist;
+				INFOPLIST_FILE = StupidiosProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidiosProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidIOSProject.app/StupidIOSProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidiosProject.app/StupidiosProject";
+			};
+			name = Release;
+		};
+		5D1AC17B1C2304640084AC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StupidiosProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidiosProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StupidiosProject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5D1AC17C1C2304640084AC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StupidiosProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidiosProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StupidiosProject;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D05DF211C1B2AC300F97076 /* Build configuration list for PBXProject "StupidIOSProject" */ = {
+		5D1AC1471C2304630084AC9C /* Build configuration list for PBXProject "StupidiosProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D05DF471C1B2AC300F97076 /* Debug */,
-				5D05DF481C1B2AC300F97076 /* Release */,
+				5D1AC1721C2304640084AC9C /* Debug */,
+				5D1AC1731C2304640084AC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D05DF491C1B2AC300F97076 /* Build configuration list for PBXNativeTarget "StupidIOSProject" */ = {
+		5D1AC1741C2304640084AC9C /* Build configuration list for PBXNativeTarget "StupidiosProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D05DF4A1C1B2AC300F97076 /* Debug */,
-				5D05DF4B1C1B2AC300F97076 /* Release */,
+				5D1AC1751C2304640084AC9C /* Debug */,
+				5D1AC1761C2304640084AC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5D05DF4C1C1B2AC300F97076 /* Build configuration list for PBXNativeTarget "StupidIOSProjectTests" */ = {
+		5D1AC1771C2304640084AC9C /* Build configuration list for PBXNativeTarget "StupidiosProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D05DF4D1C1B2AC300F97076 /* Debug */,
-				5D05DF4E1C1B2AC300F97076 /* Release */,
+				5D1AC1781C2304640084AC9C /* Debug */,
+				5D1AC1791C2304640084AC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D1AC17A1C2304640084AC9C /* Build configuration list for PBXNativeTarget "StupidiosProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1AC17B1C2304640084AC9C /* Debug */,
+				5D1AC17C1C2304640084AC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5D05DF1E1C1B2AC300F97076 /* Project object */;
+	rootObject = 5D1AC1441C2304630084AC9C /* Project object */;
 }

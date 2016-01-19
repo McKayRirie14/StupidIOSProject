@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>StupidIOSProject.xcscheme</key>
+		<key>StupidiosProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5D05DF251C1B2AC300F97076</key>
+		<key>5D1AC14B1C2304640084AC9C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5D05DF3E1C1B2AC300F97076</key>
+		<key>5D1AC15F1C2304640084AC9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D1AC16A1C2304640084AC9C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
